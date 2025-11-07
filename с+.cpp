@@ -1,15 +1,15 @@
 #include <iostream>
-using namespace std;
+#include <cmath>
 
-int sum_digits(int n) {
-    if (n < 10) {
-        return n;
-    }
-    return (n % 10) + sum_digits(n / 10);
+int digit_sum(int n) {
+    n = std::abs(n);
+    if (n == 0)
+        return 0;
+    return (n % 10) + digit_sum(n / 10);
 }
 
 int main() {
-    int number = 123;
-    cout << "Sum of digits: " << sum_digits(number) << endl;
+    std::cout << digit_sum(123) << std::endl;   // 6
+    std::cout << digit_sum(-456) << std::endl;  // 15
     return 0;
 }
