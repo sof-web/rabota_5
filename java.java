@@ -1,3 +1,4 @@
+
 public class Main {
     public static int digitSum(int n) {
         n = Math.abs(n);
@@ -11,3 +12,7 @@ public class Main {
         System.out.println(digitSum(-456));  // 15
     }
 }
+
+#вывод
+#6
+#15
