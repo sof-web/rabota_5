@@ -9,7 +9,12 @@ int digit_sum(int n) {
 }
 
 int main() {
-    std::cout << digit_sum(123) << std::endl;   // 6
-    std::cout << digit_sum(-456) << std::endl;  // 15
+    std::cout << digit_sum(123) << std::endl;   
+    std::cout << digit_sum(-456) << std::endl;  
     return 0;
 }
+
+
+#вывод
+#6
+#15
