@@ -6,6 +6,6 @@ def digit_sum(n):
     return (n % 10) + digit_sum(n // 10)
 print(digit_sum(123))   
 print(digit_sum(-456))  
-# Вывол
+# Вывод
 #6
 #15
